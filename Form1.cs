@@ -4,9 +4,9 @@ using System.Diagnostics;
 
 namespace SteamCustomStatus
 {
-    public partial class Form1 : Form
+    public partial class Main : Form
     {
-        public Form1()
+        public Main()
         {
             InitializeComponent();
         }
@@ -23,14 +23,44 @@ namespace SteamCustomStatus
 
         private void button2_Click(object sender, EventArgs e)
         {
-            try
+            if (checkBox1.Checked)
             {
-                Process.Start(textBox1.Text);
+                string command = @textBox1.Text + @"&& echo Runned Successfully.";
+                Process.Start("cmd.exe", "/K " + command);
             }
-            catch(Exception ex)
+
+            else
             {
-                MessageBox.Show(ex.Message);
+                try
+                {
+                    Process.Start(textBox1.Text);
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
+
             }
+
+            ShowBG();
+        }
+
+        private void ShowBG()
+        {
+            // Show notifyIcon with a message
+            notifyIcon1.Visible = true;
+            notifyIcon1.ShowBalloonTip(1000, "Steam Custom Status", "Runned Successfully, running on background.", ToolTipIcon.Info);
+            this.Hide();
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void finishToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
