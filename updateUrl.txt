@@ -1,1 +1,1 @@
-
+https://github.com/Rotwo/SteamCustomStatus/raw/master/bin/Release/update.zip
