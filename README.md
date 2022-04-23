@@ -5,11 +5,14 @@
 <div>2. Extract the zip file</div>
 <div>3. Copy the SteamCustomStatus folder to the Steam folder</div>
 
+<div>&nbsp;</div>
 <b>Setup</b>
 <div>1. To start using the program you need to open steam</div>
 <div>2. You need to add a "custom game" on steam</div>
-![wikiImages01](https://user-images.githubusercontent.com/87866939/164886748-ef09e14a-35d9-4954-8582-bc9752b01a35.png)
-
+![](https://user-images.githubusercontent.com/87866939/164887120-84c1f81d-1e32-44a3-93c7-21a7706f19e8.jpg)
+<div>3. Click on search and select the SteamCustomStatus.exe file</div>
+<div>4. Click on properties and change the name of the app</div>
+<div>5. Start the Game/Program and start using it!</div>
 
 
 <div>&nbsp;</div>
@@ -17,7 +20,3 @@
 <div>0.1: <a href="https://github.com/Rotwo/SteamCustomStatus/raw/master/bin/Release/net6.0-windows10.0.22000.0.zip">Download</a></div>
 
 <div>&nbsp;</div>
-
-<div>If you have a issue check out this video to solve any problem with the program.</div>
-<a href="">Video Link</a>
-
