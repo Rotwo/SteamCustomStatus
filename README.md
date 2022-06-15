@@ -1,7 +1,7 @@
 ## <b>SteamCustomStatus</b>
 <div>&nbsp;</div>
 <b>Installation</b>
-<div>1. Download the <a href="[https://github.com/Rotwo/SteamCustomStatus/raw/master/bin/Release/net6.0-windows10.0.22000.0.zip](https://github.com/Rotwo/SteamCustomStatus/releases)">lastest version<a> of the program</div>
+<div>1. Download the <a href="https://github.com/Rotwo/SteamCustomStatus/releases">lastest version<a> of the program</div>
 <div>2. Extract the zip file</div>
 <div>3. Copy the SteamCustomStatus folder to the Steam folder</div>
 
